@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/square8"
+        android:layout_width="103dp"
+        android:layout_height="79dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="137dp"
+        android:layout_marginTop="240dp"
+        android:onClick="onClick"
+        android:text="             " />
+
+    <Button
+        android:id="@+id/square5"
+        android:layout_width="103dp"
+        android:layout_height="79dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="134dp"
+        android:layout_marginTop="134dp"
+        android:onClick="onClick"
+        android:text="     " />
+
+    <Button
+        android:id="@+id/square2"
+        android:layout_width="103dp"
+        android:layout_height="79dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="135dp"
+        android:layout_marginTop="26dp"
+        android:onClick="onClick"
+        android:text="  " />
+
+    <Button
+        android:id="@+id/square9"
+        android:layout_width="103dp"
+        android:layout_height="79dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="249dp"
+        android:layout_marginTop="240dp"
+        android:onClick="onClick"
+        android:text="            " />
+
+    <Button
+        android:id="@+id/square6"
+        android:layout_width="103dp"
+        android:layout_height="79dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="246dp"
+        android:layout_marginTop="134dp"
+        android:onClick="onClick"
+        android:text="       " />
+
+    <Button
+        android:id="@+id/square3"
+        android:layout_width="103dp"
+        android:layout_height="79dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="247dp"
+        android:layout_marginTop="26dp"
+        android:onClick="onClick"
+        android:text="   " />
+
+    <Button
+        android:id="@+id/newGame"
+        android:layout_width="383dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/square1"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="-15dp"
+        android:layout_marginBottom="1dp"
+        android:text="New Game"
+        android:onClick="onClick" />
+
+    <Button
+        android:id="@+id/square1"
+        android:layout_width="103dp"
+        android:layout_height="79dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="25dp"
+        android:onClick="onClick"
+        android:text=" " />
+
+    <Button
+        android:id="@+id/square4"
+        android:layout_width="103dp"
+        android:layout_height="79dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="133dp"
+        android:onClick="onClick"
+        android:text="    " />
+
+    <Button
+        android:id="@+id/square7"
+        android:layout_width="103dp"
+        android:layout_height="79dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="239dp"
+        android:onClick="onClick"
+        android:text="           " />
+
+    <TextView
+        android:id="@+id/turnView"
+        android:layout_width="match_parent"
+        android:layout_height="37dp"
+        android:layout_alignEnd="@+id/square1"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="-281dp"
+        android:layout_marginBottom="62dp"
+        android:gravity="center"
+        android:text="Player X''s Turn"
+        android:textAllCaps="false"
+        android:visibility="visible" />
+
+</RelativeLayout>
